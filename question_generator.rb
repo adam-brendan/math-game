@@ -2,7 +2,6 @@ def question_generator(player)
     num1 = rand(1..20)
     num2 = rand(1..20)
     answer = num1 + num2
-    puts answer
     puts "#{player.name}, what's #{num1} + #{num2}?"
     print "> "
     response = gets.chomp.to_i
